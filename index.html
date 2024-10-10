@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Funny Questions</title>
+</head>
+<body>
+    <h1>Funny Questions</h1>
+    <form id="questionForm">
+        <label for="question">What's the funniest thing you've ever seen?</label>
+        <textarea id="question" name="question" required></textarea>
+
+        <label for="audio">Upload an audio response:</label>
+        <input type="file" id="audio" name="audio" accept="audio/*">
+
+        <label for="video">Upload a video response:</label>
+        <input type="file" id="video" name="video" accept="video/*">
+
+        <label for="image">Upload an image:</label>
+        <input type="file" id="image" name="image" accept="image/*">
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="responses"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+i
